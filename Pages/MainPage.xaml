@@ -1,0 +1,85 @@
+﻿<Page x:Class="pract15_trpo.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pract15_trpo.Pages"
+      mc:Ignorable="d" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      DataContext="{Binding RelativeSource={RelativeSource self}}"
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="MainPage" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <Label>Поиск</Label>
+            <TextBox materialDesign:HintAssist.Hint="Введите текст для поиска"
+                     Text="{Binding searchQuery, UpdateSourceTrigger=PropertyChanged}"
+                     TextChanged="TextBox_TextChanged"/>
+        </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="0">
+                <Label FontSize="16">Сортировка</Label>
+                <ComboBox>
+                    <ComboBox.Items>
+                        <ComboBoxItem Tag="Price">По цене</ComboBoxItem>
+                        <ComboBoxItem Tag="Stock">По количеству</ComboBoxItem>
+                    </ComboBox.Items>
+                </ComboBox>
+                <StackPanel Orientation="Vertical">
+                    <RadioButton IsChecked="True">По убыванию</RadioButton>
+                    <RadioButton>По возрастанию</RadioButton>
+                </StackPanel>
+                <Label>Фильтры</Label>
+                <StackPanel>
+                    <Label FontSize="16">Фильтр по цене</Label>
+                    <Label>от</Label>
+                    <TextBox Text="{Binding filterPriceFrom, UpdateSourceTrigger=PropertyChanged}"
+                             materialDesign:HintAssist.Hint="Введите цену" TextChanged="TextBox_TextChanged"/>
+                    <Label>до</Label>
+                    <TextBox Text="{Binding filterPriceTo, UpdateSourceTrigger=PropertyChanged}"
+                             materialDesign:HintAssist.Hint="Введите цену" TextChanged="TextBox_TextChanged"/>
+                <Label FontSize="16">По категории</Label>
+                <ComboBox>
+                </ComboBox>
+                <Label FontSize="16">По бренду</Label>
+                <ComboBox>
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+        <ListView Grid.Column="1" Grid.Row="1"
+                  x:Name="ProductList" ItemsSource="{Binding products}"
+                  HorizontalContentAlignment="Stretch">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Black" BorderThickness="1">
+                        <StackPanel>
+                            <Grid>
+                                <TextBlock Text="Название товара" HorizontalAlignment="Left"></TextBlock>
+                                <TextBlock Text="Цена" HorizontalAlignment="Right"></TextBlock>
+                            </Grid>
+                            <TextBlock>
+                                <Run Text="☆" Foreground="Gold"></Run>
+                                <Run Text="рейтинг"/>
+                            </TextBlock>
+                            <TextBlock Text="Категория" Margin="0, 20, 0, 0"></TextBlock>
+                            <Grid Margin="0, 20, 0, 0">
+                                <TextBlock Text="Описание" HorizontalAlignment="Left"></TextBlock>
+                                <TextBlock Text="Остаток" HorizontalAlignment="Right"></TextBlock>
+                            </Grid>
+                            <TextBlock Margin="0, 20, 0, 0" Text="#тег1 #тег2 #тег3"></TextBlock>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>
