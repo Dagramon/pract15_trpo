@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\taglist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\taglist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\tagform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\tagform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\enterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\enterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\categorylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\categorylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\categoryform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\categoryform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\brandlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\brandlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\addproductform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\addproductform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\brandform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\brandform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\validators\\pricevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,22 +79,6 @@
       "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\tagform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\brandform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\brandform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\tagform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\tagform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\categoryform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\categoryform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\brandlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\brandlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,20 +95,8 @@
       "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\enterpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\enterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\enterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\categorylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\categorylist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\taglist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\taglist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:models\\karamovelectronicshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\pages\\brandlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:pages\\brandlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|c:\\users\\damir\\source\\repos\\pract15_trpo\\service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F328FC6-A927-4E13-8D0F-F93FDFE2C65D}|pract15_trpo.csproj|solutionrelative:service\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -122,11 +122,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 209,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "AddProductForm.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\AddProductForm.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\AddProductForm.xaml.cs",
@@ -138,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "RatingValidation.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Validators\\RatingValidation.cs",
               "RelativeDocumentMoniker": "Validators\\RatingValidation.cs",
@@ -150,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "IntValidation.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Validators\\IntValidation.cs",
               "RelativeDocumentMoniker": "Validators\\IntValidation.cs",
@@ -162,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "PriceValidation.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Validators\\PriceValidation.cs",
               "RelativeDocumentMoniker": "Validators\\PriceValidation.cs",
@@ -174,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "TextValidation.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Validators\\TextValidation.cs",
               "RelativeDocumentMoniker": "Validators\\TextValidation.cs",
@@ -186,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "StringValidation.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Validators\\StringValidation.cs",
               "RelativeDocumentMoniker": "Validators\\StringValidation.cs",
@@ -198,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "EnterPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\EnterPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\EnterPage.xaml.cs",
@@ -210,18 +210,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 3,
               "Title": "EnterPage.xaml",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\EnterPage.xaml",
               "RelativeDocumentMoniker": "Pages\\EnterPage.xaml",
               "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\EnterPage.xaml",
               "RelativeToolTip": "Pages\\EnterPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-21T18:24:07.089Z"
+              "WhenOpened": "2026-03-21T18:24:07.089Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "AddProductForm.xaml",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\AddProductForm.xaml",
               "RelativeDocumentMoniker": "Pages\\AddProductForm.xaml",
@@ -233,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "PIN-Validation.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Validators\\PIN-Validation.cs",
               "RelativeDocumentMoniker": "Validators\\PIN-Validation.cs",
@@ -245,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "CategoryForm.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\CategoryForm.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\CategoryForm.xaml.cs",
@@ -257,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "CategoryList.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\CategoryList.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\CategoryList.xaml.cs",
@@ -269,29 +270,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 4,
               "Title": "CategoryList.xaml",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\CategoryList.xaml",
               "RelativeDocumentMoniker": "Pages\\CategoryList.xaml",
               "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\CategoryList.xaml",
               "RelativeToolTip": "Pages\\CategoryList.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-21T17:53:55.08Z"
+              "WhenOpened": "2026-03-21T17:53:55.08Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "CategoryForm.xaml",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\CategoryForm.xaml",
               "RelativeDocumentMoniker": "Pages\\CategoryForm.xaml",
               "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\CategoryForm.xaml",
               "RelativeToolTip": "Pages\\CategoryForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-21T17:53:43.414Z"
+              "WhenOpened": "2026-03-21T17:53:43.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Service\\CategoryService.cs",
               "RelativeDocumentMoniker": "Service\\CategoryService.cs",
@@ -303,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "KaramovElectronicShopDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Models\\KaramovElectronicShopDbContext.cs",
               "RelativeDocumentMoniker": "Models\\KaramovElectronicShopDbContext.cs",
@@ -315,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
@@ -327,29 +330,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\MainPage.xaml",
               "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
               "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\MainPage.xaml",
               "RelativeToolTip": "Pages\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-21T17:45:09.077Z"
+              "WhenOpened": "2026-03-21T17:45:09.077Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 0,
               "Title": "TagList.xaml",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\TagList.xaml",
               "RelativeDocumentMoniker": "Pages\\TagList.xaml",
               "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\TagList.xaml",
               "RelativeToolTip": "Pages\\TagList.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-21T17:44:09.582Z"
+              "WhenOpened": "2026-03-21T17:44:09.582Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "BrandForm.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\BrandForm.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\BrandForm.xaml.cs",
@@ -361,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "TagForm.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\TagForm.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\TagForm.xaml.cs",
@@ -373,14 +378,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "TagForm.xaml",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\TagForm.xaml",
               "RelativeDocumentMoniker": "Pages\\TagForm.xaml",
               "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\TagForm.xaml",
               "RelativeToolTip": "Pages\\TagForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-21T17:40:18.095Z"
+              "WhenOpened": "2026-03-21T17:40:18.095Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -396,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "BrandService.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Service\\BrandService.cs",
               "RelativeDocumentMoniker": "Service\\BrandService.cs",
@@ -408,18 +414,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "BrandForm.xaml",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\BrandForm.xaml",
               "RelativeDocumentMoniker": "Pages\\BrandForm.xaml",
               "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\BrandForm.xaml",
               "RelativeToolTip": "Pages\\BrandForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-21T17:37:45.558Z"
+              "WhenOpened": "2026-03-21T17:37:45.558Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "BrandList.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\BrandList.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\BrandList.xaml.cs",
@@ -431,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "TagList.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\TagList.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\TagList.xaml.cs",
@@ -443,14 +450,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 6,
               "Title": "BrandList.xaml",
               "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\BrandList.xaml",
               "RelativeDocumentMoniker": "Pages\\BrandList.xaml",
               "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract15_trpo\\Pages\\BrandList.xaml",
               "RelativeToolTip": "Pages\\BrandList.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-21T17:37:24.041Z"
+              "WhenOpened": "2026-03-21T17:37:24.041Z",
+              "EditorCaption": ""
             }
           ]
         }
