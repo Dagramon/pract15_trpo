@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\Damir\source\repos\pract15_trpo\App.xaml
-3-211180556
+101612790113
 22-1361237504
-12-66947133
+31-294466918
 231-2012969720
-MainWindow.xaml;Pages\EnterPage.xaml;Pages\MainPage.xaml;
+MainWindow.xaml;Pages\AddProductForm.xaml;Pages\BrandForm.xaml;Pages\BrandList.xaml;Pages\CategoryForm.xaml;Pages\CategoryList.xaml;Pages\EnterPage.xaml;Pages\MainPage.xaml;Pages\TagForm.xaml;Pages\TagList.xaml;
 
 False
 

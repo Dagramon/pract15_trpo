@@ -21,7 +21,7 @@ namespace pract15_trpo.Pages
     public partial class EnterPage : Page
     {
 
-        public string pin { get; set; }
+        public string pin { get; set; } = "0000";
         public EnterPage()
         {
             InitializeComponent();

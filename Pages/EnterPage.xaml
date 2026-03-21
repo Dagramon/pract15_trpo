@@ -4,10 +4,11 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:pract15_trpo.Pages"
+      xmlns:validators="clr-namespace:pract15_trpo.Validators"
       mc:Ignorable="d" 
       DataContext="{Binding RelativeSource={RelativeSource self}}"
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="EnterPage">
+      Title="Вход">
 
     <StackPanel HorizontalAlignment="Center"
                 VerticalAlignment="Center"
@@ -15,7 +16,13 @@
                 >
         <Label HorizontalAlignment="Center" Margin="5" FontSize="24">Войти</Label>
         <TextBlock Margin="5">Пин-код</TextBlock>
-        <TextBox Margin="5" Text="{Binding pin}"></TextBox>
+        <TextBox Margin="5">
+            <Binding Path="pin" UpdateSourceTrigger="PropertyChanged">
+                <Binding.ValidationRules>
+                    <validators:PIN_Validation/>
+                </Binding.ValidationRules>
+            </Binding>
+        </TextBox>
         <Button Margin="5" Click="EnterWithPin">Войти</Button>
         <Button Margin="5" Click="Enter">Войти как посетитель</Button>
     </StackPanel>

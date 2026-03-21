@@ -12,12 +12,6 @@
                 <materialdesign:BundledTheme BaseTheme="Light"
                                              PrimaryColor="DeepPurple"
                                              SecondaryColor="Lime"/>
-                <ResourceDictionary>
-                    <SolidColorBrush x:Key="MaterialDesign.Brush.Primary" Color="#dfeaeb"/>
-                    <SolidColorBrush x:Key="MaterialDesign.Brush.Accent" Color="#00C4B4"/>
-                    <SolidColorBrush x:Key="MaterialDesign.Brush.Additional" Color="#00b4c4"/>
-                    <SolidColorBrush x:Key="MaterialDesign.Brush.Border" Color="#ffd129"/>
-                </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
             <Style TargetType="TextBox" BasedOn="{StaticResource MaterialDesignTextBox}">
                 <Setter Property="AutomationProperties.Name" Value=""/>
@@ -42,6 +36,9 @@
                 </Style.Triggers>
             </Style>
             <Style TargetType="RadioButton" BasedOn="{StaticResource MaterialDesignDarkRadioButton}">
+                <Setter Property="Background" Value="#00b4c4"/>
+            </Style>
+            <Style TargetType="CheckBox" BasedOn="{StaticResource MaterialDesignCheckBox}">
                 <Setter Property="Background" Value="#00b4c4"/>
             </Style>
         </ResourceDictionary>

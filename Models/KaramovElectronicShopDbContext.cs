@@ -34,7 +34,8 @@ public partial class KaramovElectronicShopDbContext : DbContext
             entity.ToTable("brands");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
+                .UseIdentityColumn()
                 .HasColumnName("id");
             entity.Property(e => e.Name)
                 .HasMaxLength(100)
@@ -46,7 +47,8 @@ public partial class KaramovElectronicShopDbContext : DbContext
             entity.ToTable("categories");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
+                .UseIdentityColumn()
                 .HasColumnName("id");
             entity.Property(e => e.Name)
                 .HasMaxLength(100)
@@ -58,7 +60,8 @@ public partial class KaramovElectronicShopDbContext : DbContext
             entity.ToTable("products");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
+                .UseIdentityColumn()
                 .HasColumnName("id");
             entity.Property(e => e.BrandId).HasColumnName("brand_id");
             entity.Property(e => e.CategoryId).HasColumnName("category_id");
@@ -92,11 +95,11 @@ public partial class KaramovElectronicShopDbContext : DbContext
                     "ProductTag",
                     r => r.HasOne<Tag>().WithMany()
                         .HasForeignKey("TagId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .HasConstraintName("FK_product_tags_tags"),
                     l => l.HasOne<Product>().WithMany()
                         .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.ClientSetNull)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .HasConstraintName("FK_product_tags_products"),
                     j =>
                     {
@@ -112,7 +115,8 @@ public partial class KaramovElectronicShopDbContext : DbContext
             entity.ToTable("tags");
 
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
+                .UseIdentityColumn()
                 .HasColumnName("id");
             entity.Property(e => e.Name)
                 .HasMaxLength(100)

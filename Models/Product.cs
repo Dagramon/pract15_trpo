@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace pract15_trpo.Models;
 
@@ -27,5 +28,5 @@ public partial class Product
 
     public virtual Category Category { get; set; } = null!;
 
-    public virtual ICollection<Tag> Tags { get; set; } = new List<Tag>();
+    public virtual ObservableCollection<Tag> Tags { get; set; } = new ObservableCollection<Tag>();
 }
