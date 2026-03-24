@@ -16,10 +16,14 @@
             <Style TargetType="TextBox" BasedOn="{StaticResource MaterialDesignTextBox}">
                 <Setter Property="AutomationProperties.Name" Value=""/>
                 <Setter Property="Background" Value="#00C4B4"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontWeight" Value="Bold"/>
             </Style>
             <Style TargetType="ComboBox" BasedOn="{StaticResource MaterialDesignComboBox}">
                 <Setter Property="AutomationProperties.Name" Value=""/>
                 <Setter Property="Background" Value="#00C4B4"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontWeight" Value="Bold"/>
             </Style>
             <Style TargetType="Window">
                 <Setter Property="Background" Value="#dfeaeb"/>

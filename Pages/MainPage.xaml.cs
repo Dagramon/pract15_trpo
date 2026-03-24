@@ -53,7 +53,8 @@ namespace pract15_trpo.Pages
             set
             {
                 _filterPriceFrom = value;
-                OnPropertyChanged();;
+                PriceClass.priceFrom = value;
+                OnPropertyChanged();
             }
         }
 
@@ -63,6 +64,7 @@ namespace pract15_trpo.Pages
             set
             {
                 _filterPriceTo = value;
+                PriceClass.priceTo = value;
                 OnPropertyChanged();
             }
         }
@@ -98,25 +100,39 @@ namespace pract15_trpo.Pages
             if (searchQuery != null && !product.Name.Contains(searchQuery,
                 StringComparison.CurrentCultureIgnoreCase))
                 return false;
-
-            if (!string.IsNullOrEmpty(filterPriceFrom) && Convert.ToInt32(filterPriceFrom) > product.Price)
+            if (!string.IsNullOrEmpty(filterPriceFrom) && Convert.ToDecimal(filterPriceFrom) > product.Price)
                 return false;
-
-            if (!string.IsNullOrEmpty(filterPriceTo) && Convert.ToInt32(filterPriceTo) < product.Price)
+            if (!string.IsNullOrEmpty(filterPriceTo) && Convert.ToDecimal(filterPriceTo) < product.Price)
                 return false;
-
-            if (!string.IsNullOrEmpty(brandSort) && product.Brand.Name != brandSort)
+            if (!string.IsNullOrEmpty(brandSort) && product.Brand != null && product.Brand.Name != brandSort)
                 return false;
-
-            if (!string.IsNullOrEmpty(categorySort) && product.Category.Name != categorySort)
+            if (!string.IsNullOrEmpty(categorySort) && product.Category != null && product.Category.Name != categorySort)
                 return false;
-
+            if (product.Category == null && !string.IsNullOrEmpty(categorySort))
+                return false;
+            if (product.Brand == null && !string.IsNullOrEmpty(brandSort))
+                return false;
             return true;
         }
 
         private void Refresh(object sender, RoutedEventArgs e)
         {
             productsView.Refresh();
+            try
+            {
+                if (Convert.ToDecimal(filterPriceFrom) > Convert.ToDecimal(filterPriceTo))
+                {
+                    ErrorPrice.Text = "Неверно введён разброс цены";
+                }
+                else
+                {
+                    ErrorPrice.Text = "";
+                }
+            }
+            catch
+            {
+
+            }
         }
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
@@ -186,26 +202,36 @@ namespace pract15_trpo.Pages
         private void AddProduct(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new AddProductForm());
+            PriceClass.priceTo = "";
+            PriceClass.priceFrom = "";
         }
 
         private void EditProduct(object sender, MouseButtonEventArgs e)
         {
             NavigationService.Navigate(new AddProductForm(product));
+            PriceClass.priceTo = "";
+            PriceClass.priceFrom = "";
         }
 
         private void GoTags(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new TagList());
+            PriceClass.priceTo = "";
+            PriceClass.priceFrom = "";
         }
 
         private void GoBrands(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new BrandList());
+            PriceClass.priceTo = "";
+            PriceClass.priceFrom = "";
         }
 
         private void GoCategories(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new CategoryList());
+            PriceClass.priceTo = "";
+            PriceClass.priceFrom = "";
         }
     }
 }

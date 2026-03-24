@@ -14,21 +14,27 @@ namespace pract15_trpo.Validators
         {
             var input = value.ToString();
 
-            if (value == null || string.IsNullOrWhiteSpace(input))
+            try
             {
-                return new ValidationResult(false, "Значение не может быть пустым");
-            }
+                if (value == null || string.IsNullOrWhiteSpace(input))
+                {
+                    return new ValidationResult(false, "Значение не может быть пустым");
+                }
 
-            if (!double.TryParse(input, out double longValue))
-            {
-                return new ValidationResult(false, "Цена состоит только из цифр");
-            }
+                if (!decimal.TryParse(input, out decimal longValue))
+                {
+                    return new ValidationResult(false, "Цена состоит только из цифр");
+                }
 
-            if (Convert.ToDouble(input) <= 0)
-            {
-                return new ValidationResult(false, "Цена не может быть меньше либо равно нулю");
-            }
-            if (Convert.ToDouble(input) > double.MaxValue)
+                if (Convert.ToDecimal(input) <= 0)
+                {
+                    return new ValidationResult(false, "Цена не может быть меньше либо равно нулю");
+                }
+                if (Convert.ToDecimal(input) > decimal.MaxValue)
+                {
+                    return new ValidationResult(false, "Слишком большое число");
+                }
+            } catch
             {
                 return new ValidationResult(false, "Слишком большое число");
             }

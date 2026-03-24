@@ -24,9 +24,9 @@ namespace pract15_trpo.Validators
                 return new ValidationResult(false, "Количество это число");
             }
 
-            if (Convert.ToInt32(input) <= 0)
+            if (Convert.ToInt32(input) < 0)
             {
-                return new ValidationResult(false, "Количество не может быть меньше либо равно нулю");
+                return new ValidationResult(false, "Количество не может быть меньше нуля");
             }
             if (Convert.ToInt32(input) > int.MaxValue)
             {

@@ -5,6 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:pract15_trpo.Pages"
       xmlns:converters="clr-namespace:pract15_trpo.Converters"
+      xmlns:validators ="clr-namespace:pract15_trpo.Validators"
       mc:Ignorable="d" 
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       d:DesignHeight="600" d:DesignWidth="1000"
@@ -12,6 +13,7 @@
     <Page.Resources>
         <converters:LessThanTenConverter x:Key="LessThanTenConverter"/>
         <converters:TagConverter x:Key="TagConverter"/>
+        <converters:CategoryConverter x:Key="CategoryConverter"/>
     </Page.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
@@ -45,11 +47,22 @@
                 <StackPanel>
                     <Label FontSize="16">Фильтр по цене</Label>
                     <Label>от</Label>
-                    <TextBox Text="{Binding filterPriceFrom, UpdateSourceTrigger=PropertyChanged}"
-                             materialDesign:HintAssist.Hint="Введите цену" TextChanged="Refresh"/>
-                    <Label>до</Label>
-                    <TextBox Text="{Binding filterPriceTo, UpdateSourceTrigger=PropertyChanged}"
-                             materialDesign:HintAssist.Hint="Введите цену" TextChanged="Refresh"/>
+                <TextBox materialDesign:HintAssist.Hint="Введите цену" TextChanged="Refresh">
+                    <Binding Path="filterPriceFrom" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:PriceValidation/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox>
+                <Label>до</Label>
+                <TextBox materialDesign:HintAssist.Hint="Введите цену" TextChanged="Refresh">
+                    <Binding Path="filterPriceTo" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validators:PriceValidation/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox>
+                <TextBlock x:Name="ErrorPrice" FontSize="11"></TextBlock>
                 <Label FontSize="16">По категории</Label>
                 <ComboBox x:Name="CategoryComboBox" ItemsSource="{Binding CategoryService.Categories}" DisplayMemberPath="Name" SelectedValuePath="Name" SelectedValue="{Binding categorySort, UpdateSourceTrigger=PropertyChanged}" SelectionChanged="Refresh">
                 </ComboBox>
@@ -90,7 +103,8 @@
                                 <Run FontSize="20" Text="☆" Foreground="Gold"></Run>
                                 <Run Text="{Binding Rating, StringFormat={}{0:N1}}"/>
                             </TextBlock>
-                            <TextBlock Text="{Binding Category.Name}" Margin="0, 20, 0, 0"></TextBlock>
+                            <TextBlock Margin="0, 20, 0, 0" Text="{Binding Category.Name, FallbackValue=Нет категории}"/>
+
                             <Grid Margin="0, 20, 0, 0">
                                 <TextBlock Text="{Binding Description}" HorizontalAlignment="Left"></TextBlock>
                                 <TextBlock Text="{Binding Stock, StringFormat={}Остаток: {0}}" HorizontalAlignment="Right"></TextBlock>

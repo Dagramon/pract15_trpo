@@ -23,5 +23,15 @@ namespace pract15_trpo
 
             MainFrame.Navigate(new EnterPage());
         }
+
+        private void MainFrame_Navigated(object sender, NavigationEventArgs e)
+        {
+            var page = e.Content as Page;
+
+            if (page != null)
+            {
+                this.Title = page.Title;
+            }
+        }
     }
 }

@@ -40,7 +40,7 @@ namespace pract15_trpo.Service
         }
         public void Remove(Tag tag)
         {
-            _db.Remove<Tag>(tag);
+            _db.Tags.Remove(tag);
             if (Commit() > 0)
             {
                 if (Tags.Contains(tag))

@@ -39,7 +39,7 @@ namespace pract15_trpo.Service
         }
         public void Remove(Brand brand)
         {
-            _db.Remove<Brand>(brand);
+            _db.Brands.Remove(brand);
             if (Commit() > 0)
             {
                 if (Brands.Contains(brand))

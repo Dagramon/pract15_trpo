@@ -39,7 +39,7 @@ namespace pract15_trpo.Service
         }
         public void Remove(Category category)
         {
-            _db.Remove<Category>(category);
+            _db.Categories.Remove(category);
             if (Commit() > 0)
             {
                 if (Categories.Contains(category))

@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pract15_trpo"
         mc:Ignorable="d"
-        Title="Магазин электроники" Height="600" Width="1000" Icon="/images/icon.ico">
-    <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden">
+        Title="Магазин электроники" Height="750" Width="1000" Icon="/images/icon.ico">
+    <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Navigated="MainFrame_Navigated">
         
     </Frame>
 </Window>

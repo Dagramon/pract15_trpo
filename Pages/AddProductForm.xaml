@@ -38,7 +38,7 @@
             </TextBox>
             <TextBlock>Цена</TextBlock>
             <TextBox x:Name="PriceTextBox">
-                <Binding Path="product.Price" UpdateSourceTrigger="LostFocus" ConverterCulture="ru-RU">
+                <Binding Path="product.Price" UpdateSourceTrigger="PropertyChanged" ConverterCulture="ru-RU">
                     <Binding.ValidationRules>
                         <validators:PriceValidation/>
                     </Binding.ValidationRules>
